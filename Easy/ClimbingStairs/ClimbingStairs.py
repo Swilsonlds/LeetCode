@@ -7,4 +7,4 @@ def climbingStairs(target: int) -> int:
     else:
         return climbingStairs(target-1) + climbingStairs(target-2)
     
-print(climbingStairs(5))
+print(climbingStairs(6))
